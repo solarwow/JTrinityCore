@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form
+	
+>
+	<fieldset name="details">
+		<field
+			name="id"
+			type="hidden"
+		/>
+		
+		
+		<field
+			name="quantity"
+			type="text"
+			label="COM_JTRINITYCORE_GOLD_QUANTITY_LABEL"
+			description="COM_JTRINITYCORE_GOLD_QUANTITY_LABEL_DESC"
+			size="8"
+			class="inputbox"
+			required="true"
+			default="1"
+		/>
+		
+		<field
+			name="cost"
+			type="text"
+			label="COM_JTRINITYCORE_GOLD_COST_LABEL"
+			description="COM_JTRINITYCORE_GOLD_COST_LABEL_DESC"
+			size="8"
+			class="inputbox"
+			required="true"
+			default=""
+		/>		
+		
+	
+	</fieldset>
+	
+</form>
+

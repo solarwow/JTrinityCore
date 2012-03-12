@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form
+	addrulepath="/administrator/components/com_jtrinitycore/models/rules"
+>
+	<fieldset name="details">
+		<field
+			name="id"
+			type="hidden"
+		/>
+		<field
+			name="allowablerace"
+			type="hidden"
+		/>
+		<field
+			name="requiredlevel"
+			type="hidden"
+		/>
+		<field
+			name="itemlevel"
+			type="hidden"
+		/>
+		<field
+			name="quality"
+			type="hidden"
+		/>
+		<field
+			name="subclass"
+			type="hidden"
+		/>
+		<field
+			name="class"
+			type="hidden"
+		/>
+		<field
+			name="inventorytype"
+			type="hidden"
+		/>
+		
+		<field name="realmid" 
+			type="realms" 
+			label="COM_JTRINITYCORE_ITEM_REALMS_LABEL"
+			description="COM_JTRINITYCORE_ITEM_REALMS_DESC" 
+			class="inputbox" 
+			size="1"
+			default="0"
+			required="true"
+		/>
+		<field
+			name="name"
+			type="searchitems"
+			label="COM_JTRINITYCORE_ITEM_ITEMNAME_LABEL"
+			description="COM_JTRINITYCORE_ITEM_ITEMNAME_DESC"
+			class="inputbox"
+			required="true"
+		/>	
+		<field
+			name="itemid"
+			type="text"
+			label="COM_JTRINITYCORE_ITEM_ITEMID_LABEL"
+			description="COM_JTRINITYCORE_ITEM_ITEMID_DESC"
+			size="6"
+			class="inputbox"
+			readonly="true" 
+			required="true"
+			default=""
+		/>
+			
+		<field
+			name="description"
+			type="text"
+			label="COM_JTRINITYCORE_ITEM_DESCRIPTION_LABEL"
+			description="COM_JTRINITYCORE_ITEM_DESCRIPTION_DESC"
+			size="50"
+			class="inputbox"
+			required="false"
+			default=""
+		/>
+		<field
+			name="catid"
+			type="category"
+			extension="com_jtrinitycore"
+			class="inputbox"
+			default=""
+			label="COM_JTRINITYCORE_ITEM_FIELD_CATEGORY_LABEL"
+			description="COM_JTRINITYCORE_ITEM_FIELD_CATEGORY_DESC"
+			required="true"
+		>
+			<option value="0">JOPTION_SELECT_CATEGORY</option>
+		</field>
+		<field
+			name="color"
+			type="text"
+			label="COM_JTRINITYCORE_ITEM_COLOR_LABEL"
+			description="COM_JTRINITYCORE_ITEM_COLOR_DESC"
+			size="10"
+			class="inputbox"
+			required="true"
+			default=""
+		/>
+		<field
+			name="cost"
+			type="text"
+			label="COM_JTRINITYCORE_ITEM_COST_LABEL"
+			description="COM_JTRINITYCORE_ITEM_COST_DESC"
+			size="6"
+			class="inputbox"
+			required="true"
+			default=""
+		/>
+		
+		
+		
+		
+	
+	</fieldset>
+	
+</form>

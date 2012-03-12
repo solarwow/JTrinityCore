@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <extension type="package" version="1.6">
+ <name>JTrinityCore Package</name>
+ <packagename>jtrinitycore</packagename>
+ <version>1.0.0</version>
+ <creationDate>Mar 2012</creationDate>
+ <author>Francisco Meneu</author>
+ <url>http://www.yoururl.com/</url>
+ <packager>Francisco Meneu</packager>
+ <packagerurl>http://www.yoururl.com/</packagerurl>
+ <description>Extension to build a wow site in Joomla</description>
+ <update>http://www.updateurl.com/update</update>
+ <files folder="packages">
+ <file type="component" id="com_jtrinitycore" >com_jtrinitycore.tgz</file>
+ <file type="module" id="mod_jtcrealmstatus" client="site">mod_jtcrealmstatus.tgz</file>
+ <file type="plugin" id="plg_usertrinity" client="site">plg_usertrinity.tgz</file>
+ </files>
+ </extension>

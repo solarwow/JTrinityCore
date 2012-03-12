@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form
+	
+>
+	<fieldset name="details">
+		<field
+			name="id"
+			type="hidden"
+		/>
+		
+		
+		<field
+			name="minLevel"
+			type="text"
+			label="COM_JTRINITYCORE_POWERLEVELING_MIN_LABEL"
+			description="COM_JTRINITYCORE_POWERLEVELING_MIN_DESC"
+			size="4"
+			class="inputbox"
+			required="true"
+			default="1"
+		/>
+		<field
+			name="maxLevel"
+			type="text"
+			label="COM_JTRINITYCORE_POWERLEVELING_MAX_LABEL"
+			description="COM_JTRINITYCORE_POWERLEVELING_MAX_DESC"
+			size="4"
+			class="inputbox"
+			required="true"
+			default=""
+		/>
+		<field
+			name="cost"
+			type="text"
+			label="COM_JTRINITYCORE_POWERLEVELING_COST_LABEL"
+			description="COM_JTRINITYCORE_POWERLEVELING_COST_DESC"
+			size="6"
+			class="inputbox"
+			required="true"
+			default=""
+		/>		
+		
+	
+	</fieldset>
+	
+</form>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form
+	
+>
+	<fieldset name="details">
+		<field
+			name="id"
+			type="hidden"
+		/>
+		<field
+			name="realmid"
+			type="hidden"
+		/>
+		
+		
+		<field
+			name="realmname"
+			type="text"
+			label="COM_JTRINITYCORE_REALMS_HEADING_REALMNAME"
+			description="COM_JTRINITYCORE_REALMS_HEADING_REALMNAME_DESC"
+			size="20"
+			class="inputbox"
+			required="true"
+			default=""
+		/>
+		<field
+			name="charactersdb"
+			type="text"
+			label="COM_JTRINITYCORE_REALMS_HEADING_CHARACTERSDB"
+			description="COM_JTRINITYCORE_REALMS_HEADING_CHARACTERSDB_DESC"
+			size="20"
+			class="inputbox"
+			required="true"
+			default="characters"
+		/>
+		<field
+			name="worlddb"
+			type="text"
+			label="COM_JTRINITYCORE_REALMS_HEADING_WORLDDB"
+			description="COM_JTRINITYCORE_REALMS_HEADING_WORLDDB_DESC"
+			size="20"
+			class="inputbox"
+			required="true"
+			default="world"
+		/>
+		<field
+			name="versionserver"
+			type="text"
+			label="COM_JTRINITYCORE_REALMS_HEADING_VERSIONSERVER"
+			description="COM_JTRINITYCORE_REALMS_HEADING_VERSIONSERVER_DESC"
+			size="10"
+			class="inputbox"
+			required="true"
+			default="3.3.5a"
+		/>	
+		<field
+			name="servertype"
+			type="text"
+			label="COM_JTRINITYCORE_REALMS_HEADING_SERVERTYPE"
+			description="COM_JTRINITYCORE_REALMS_HEADING_SERVERTYPE"
+			size="10"
+			class="inputbox"
+			required="true"
+			default="PvP"
+		/>	
+		<field
+			name="descriptiontitle"
+			type="text"
+			label="COM_JTRINITYCORE_REALMS_HEADING_DESCRIPTIONTITLE"
+			description="COM_JTRINITYCORE_REALMS_HEADING_DESCRIPTIONTITLE_DESC"
+			size="10"
+			class="inputbox"
+			required="true"
+			default="Rates"
+		/>	
+		<field
+			name="description"
+			type="text"
+			label="COM_JTRINITYCORE_REALMS_HEADING_DESCRIPTION"
+			description="COM_JTRINITYCORE_REALMS_HEADING_DESCRIPTION_DESC"
+			size="10"
+			class="inputbox"
+			required="true"
+			default="x1 Blizzlike"
+		/>	
+		<field
+			name="ip"
+			type="text"
+			label="COM_JTRINITYCORE_REALMS_HEADING_IP"
+			description="COM_JTRINITYCORE_REALMS_HEADING_IP_DESC"
+			size="20"
+			class="inputbox"
+			required="true"
+			default="127.0.0.1"
+		/>		
+		<field
+			name="port"
+			type="text"
+			label="COM_JTRINITYCORE_REALMS_HEADING_PORT"
+			description="COM_JTRINITYCORE_REALMS_HEADING_PORT_DESC"
+			size="6"
+			class="inputbox"
+			required="true"
+			default="8085"
+		/>		
+		<field
+			name="population"
+			type="text"
+			label="COM_JTRINITYCORE_REALMS_HEADING_POPULATION"
+			description="COM_JTRINITYCORE_REALMS_HEADING_POPULATION_DESC"
+			size="10"
+			class="inputbox"
+			required="true"
+			default="0"
+		/>		
+		
+	
+	</fieldset>
+	
+</form>

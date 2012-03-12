@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset
+		name="preferences"
+		label="COM_JTRINITYCORE_CONFIG_DATABASE_LABEL"
+		description="COM_JTRINITYCORE_CONFIG_DATABASE_DESC"
+	>
+	<field
+			name="database_driver"
+			type="text"
+			label="COM_JTRINITYCORE_DATABASE_DRIVER_LABEL"
+			description="COM_JTRINITYCORE_DATABASE_DRIVER_DESC"
+			default="mysqli"
+		>			
+		</field>
+		<field
+			name="database_host"
+			type="text"
+			label="COM_JTRINITYCORE_DATABASE_HOST_LABEL"
+			description="COM_JTRINITYCORE_DATABASE_HOST_DESC"
+			default="localhost"
+		>			
+		</field>
+		<field
+			name="database_port"
+			type="text"
+			label="COM_JTRINITYCORE_DATABASE_PORT_LABEL"
+			description="COM_JTRINITYCORE_DATABASE_PORT_DESC"
+			default="3306"
+		>			
+		</field>
+		<field
+			name="database_user"
+			type="text"
+			label="COM_JTRINITYCORE_DATABASE_USER_LABEL"
+			description="COM_JTRINITYCORE_DATABASE_USER_DESC"
+			default="trinity"
+		>			
+		</field>
+		<field
+			name="database_pwd"
+			type="password"
+			label="COM_JTRINITYCORE_DATABASE_PASSWORD_LABEL"
+			description="COM_JTRINITYCORE_DATABASE_PASSWORD_DESC"
+			default=""
+		>			
+		</field>
+		<field
+			name="database_auth"
+			type="text"
+			label="COM_JTRINITYCORE_DATABASE_AUTH_LABEL"
+			description="COM_JTRINITYCORE_DATABASE_AUTH_DESC"
+			default="auth"
+		>			
+		</field>		
+		<field
+			name="database_charset"
+			type="text"
+			label="COM_JTRINITYCORE_DATABASE_CHARSET_LABEL"
+			description="COM_JTRINITYCORE_DATABASE_CHARSET_LABEL"
+			default="utf8"
+		>			
+		</field>
+		<field
+			name="locale"
+			type="list"
+			label="COM_JTRINITYCORE_LOCALE_LABEL"
+			description="COM_JTRINITYCORE_LOCALE_DESC"
+			default="0"			
+		>
+			<option value="0">COM_JTRINITYCORE_LOCALE_ENGLISH</option>
+            		<option value="1">COM_JTRINITYCORE_LOCALE_KOREAN</option>
+			<option value="2">COM_JTRINITYCORE_LOCALE_FRENCH</option>
+			<option value="3">COM_JTRINITYCORE_LOCALE_GERMAN</option>
+            		<option value="4">COM_JTRINITYCORE_LOCALE_CHINESE</option>
+			<option value="5">COM_JTRINITYCORE_LOCALE_TAIWANESE</option>
+			<option value="6">COM_JTRINITYCORE_LOCALE_SPANISH_SPAIN</option>
+            		<option value="7">COM_JTRINITYCORE_LOCALE_SPANISH_LATIN</option>
+			<option value="8">COM_JTRINITYCORE_LOCALE_RUSSIAN</option>
+		</field>
+		
+	</fieldset>
+	
+	<fieldset
+		name="server"
+		label="COM_JTRINITYCORE_CONFIG_SERVER_LABEL"
+		description="COM_JTRINITYCORE_CONFIG_SERVER_DESC"
+	>
+	<field
+			name="setrealm"
+			type="text"
+			label="COM_JTRINITYCORE_CONFIG_SETREALMLIST_LABEL"
+			description="COM_JTRINITYCORE_CONFIG_SETREALMLIST_LABEL"
+			default="Set Realmlist Your_Realmlist"
+		>	</field>
+		<field
+			name="authserverip"
+			type="text"
+			label="COM_JTRINITYCORE_CONFIG_SERVER_IP_LABEL"
+			description="COM_JTRINITYCORE_CONFIG_SERVER_IP_LABEL"
+			default="localhost"
+		>	</field>
+		<field
+			name="auth_server_port"
+			type="text"
+			label="COM_JTRINITYCORE_CONFIG_AUTH_SERVER_PORT_LABEL"
+			description="COM_JTRINITYCORE_CONFIG_AUTH_SERVER_PORT_LABEL"
+			default="3724"
+		>	</field>
+		
+		
+		<field name="delete_method" type="list" default="0"
+		    label="DELETE_METHOD" description="DELETE_METHOD_DESC">
+		    <option value="0">LOCK_USER</option>
+		    <option value="1">DELETE_USER</option>
+        	</field>       
+		
+			
+		
+	</fieldset>
+	<fieldset
+		name="othersettings"
+		label="COM_JTRINITYCORE_CONFIG_OTHERSETTINGS"
+		description="COM_JTRINITYCORE_CONFIG_OTHERSETTINGS"
+	>
+	<field
+			name="teleportergold"
+			type="text"
+			label="COM_JTRINITYCORE_CONFIG_TELEPORTERGOLD"
+			description="COM_JTRINITYCORE_CONFIG_TELEPORTERGOLD_DESC"
+			default="1"
+		>	</field>
+		
+	</fieldset>
+	
+	
+	<fieldset
+		name="paypal"
+		label="PayPal"
+		description="PayPal"
+	>
+		<field
+			name="notificationmail"
+			type="text"
+			label="COM_JTRINITYCORE_NOTIFICATION_MAIL_LABEL"
+			description="COM_JTRINITYCORE_NOTIFICATION_MAIL_DESC"
+			default=""
+		>	</field>
+		<field
+			name="paypal_from"
+			type="text"
+			label="COM_JTRINITYCORE_PAYPAL_EMAIL_FROM_LABEL"
+			description="COM_JTRINITYCORE_PAYPAL_EMAIL_FROM_DESC"
+			default=""
+		>	</field>
+		<field
+			name="api_username"
+			type="text"
+			label="COM_JTRINITYCORE_PAYPAL_USERNAME_LABEL"
+			description="COM_JTRINITYCORE_PAYPAL_USERNAME_LABEL_DESC"
+			default=""
+		>	</field>
+		<field
+			name="api_password"
+			type="text"
+			label="COM_JTRINITYCORE_PAYPAL_PASSWORD_LABEL"
+			description="COM_JTRINITYCORE_PAYPAL_PASSWORD_DESC"
+			default=""
+		>	</field>
+		<field
+			name="api_signature"
+			type="text"
+			label="COM_JTRINITYCORE_PAYPAL_SIGNATURE_LABEL"
+			description="COM_JTRINITYCORE_PAYPAL_SIGNATURE_DESC"
+			default=""
+		>	</field>
+		<field
+			name="currency"
+			type="list"
+			label="COM_JTRINITYCORE_CURRENCY_LABEL"
+			description="COM_JTRINITYCORE_CURRENCY_DESC"
+			default="EUR"			
+		>
+			<option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+			<option value="GBP">GBP</option>
+			
+		</field>
+		
+		
+		
+	</fieldset>
+	<fieldset
+		name="permissions"
+		label="JCONFIG_PERMISSIONS_LABEL"
+		description="JCONFIG_PERMISSIONS_DESC"
+	>
+		<field
+			name="rules"
+			type="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			class="inputbox"
+			validate="rules"
+			filter="rules"
+			component="com_jtrinitycore"
+			section="component"
+		/>
+	</fieldset>
+</config>

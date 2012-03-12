@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>Realm Status</name>
+    <author>JTrinityCore Team</author>
+    <version>1.5.0</version>
+    <description>Realm status info.</description>
+    <files>
+    	<folder>language</folder>
+        <filename>mod_jtcrealmstatus.xml</filename>
+        <filename module="mod_jtcrealmstatus">mod_jtcrealmstatus.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <administration>
+                <languages folder="language">
+                        <language tag="en-GB">en-GB.mod_jtcrealmstatus.ini</language>
+                </languages>
+        </administration>
+    <params>
+    </params>
+</install>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<form>
+	<fields name="trinity">
+		<fieldset name="trinity"
+			label="PLG_USER_TRINITY_SLIDER_LABEL"
+		>
+			<field
+				name="country"
+				type="text"
+				id="something"
+				description="PLG_USER_TRINITY_FIELD_COUNTRY_DESC"
+				filter="string"
+				label="PLG_USER_TRINITY_FIELD_COUNTRY_LABEL"
+				message="PLG_USER_TRINITY_FIELD_COUNTRY_MESSAGE"
+				size="30"
+			/>
+ 
+ 
+		</fieldset>
+	</fields>
+</form>
